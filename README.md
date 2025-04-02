@@ -170,4 +170,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [OpenWeatherMap](https://openweathermap.org/) for providing the weather data API
 - All the emoji designers who make weather reporting more fun!
 
-# Weather-App-Python
