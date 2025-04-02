@@ -19,6 +19,7 @@ Before starting this project, make sure you have:
 
 - Python 3.6 or higher installed
 - Basic understanding of Python syntax
+- Git installed on your computer
 - Internet connection to access the weather API
 
 ## 🛠️ Setup Instructions
@@ -40,15 +41,33 @@ If you don't have Python installed:
    python3 --version
    ```
 
-### 2. Create a Project Directory
+### 2. Install Git
 
-1. Create a new folder for your project:
+If you don't have Git installed:
+
+1. Visit [git-scm.com/downloads](https://git-scm.com/downloads)
+2. Download the latest version for your operating system
+3. Run the installer with default settings
+4. Verify installation by opening a terminal/command prompt and typing:
    ```
-   mkdir weather_emoji_app
-   cd weather_emoji_app
+   git --version
    ```
 
-### 3. Set Up a Virtual Environment (Optional but Recommended)
+### 3. Clone the Repository
+
+1. Open a terminal or command prompt
+2. Navigate to the directory where you want to store the project
+3. Clone the repository by running:
+   ```
+   git clone https://github.com/username/weather-emoji-app.git
+   ```
+   (Replace "username" with the actual GitHub username or organization name)
+4. Navigate into the project directory:
+   ```
+   cd weather-emoji-app
+   ```
+
+### 4. Set Up a Virtual Environment (Optional but Recommended)
 
 Setting up a virtual environment helps keep your project dependencies isolated:
 
@@ -64,7 +83,7 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-### 4. Install Required Dependencies
+### 5. Install Required Dependencies
 
 Install the `requests` library, which we'll use to make API calls:
 
@@ -76,16 +95,22 @@ or
 pip3 install requests
 ```
 
-### 5. Get an API Key
+### 6. Get an API Key
 
 1. Sign up for a free account at [OpenWeatherMap](https://openweathermap.org/api)
 2. Generate an API key from your account dashboard
 3. Keep this API key handy for use in the app
 
-### 6. Download the Project Template
+### 7. Getting Updates from the Repository
 
-1. Download the `weather_emoji_app.py` template from this repository
-2. Open it in your preferred code editor
+If you need to pull the latest updates from the repository:
+
+1. Make sure you're in the project directory
+2. Run:
+   ```
+   git pull origin main
+   ```
+   (or replace "main" with the name of the primary branch if different)
 
 ## 🚀 How to Run the App
 
@@ -143,6 +168,11 @@ Common issues and their solutions:
 - **City not found**
   - Check the spelling of the city name
   - Try adding the country code after the city name (e.g., "London,UK")
+  
+- **Git-related issues**
+  - "fatal: not a git repository": Make sure you're in the right directory
+  - "Permission denied": Ensure you have the correct permissions or use SSH keys
+  - "Cannot connect to GitHub": Check your internet connection
 
 ## 🔍 Learning Resources
 
@@ -150,6 +180,7 @@ Common issues and their solutions:
 - [Requests Library Documentation](https://docs.python-requests.org/en/latest/)
 - [OpenWeatherMap API Documentation](https://openweathermap.org/api)
 - [Working with JSON in Python](https://realpython.com/python-json/)
+- [Git Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 
 ## 🎓 Extension Ideas
 
@@ -169,4 +200,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - [OpenWeatherMap](https://openweathermap.org/) for providing the weather data API
 - All the emoji designers who make weather reporting more fun!
-
