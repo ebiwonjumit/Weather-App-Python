@@ -59,12 +59,12 @@ If you don't have Git installed:
 2. Navigate to the directory where you want to store the project
 3. Clone the repository by running:
    ```
-   git clone https://github.com/username/weather-emoji-app.git
+   git clone https://github.com/ebiwonjumit/weather-app-python.git
    ```
    (Replace "username" with the actual GitHub username or organization name)
 4. Navigate into the project directory:
    ```
-   cd weather-emoji-app
+   cd weather-app-python
    ```
 
 ### 4. Set Up a Virtual Environment (Optional but Recommended)
